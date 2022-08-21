@@ -1,0 +1,14 @@
+mahsan@k8s:~/my-docker/Install$ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 12.1M  100 12.1M    0     0  6482k      0  0:00:01  0:00:01 --:--:-- 8226k
+mahsan@k8s:~/my-docker/Install$ ls -ltr
+total 8
+-rw-rw-r-- 1 mahsan docker 7631 Aug 21 18:38 DockerCE-Ubuntu22Srv-Install.txt
+mahsan@k8s:~/my-docker/Install$ pwd
+/home/mahsan/my-docker/Install
+mahsan@k8s:~/my-docker/Install$ sudo chmod +x /usr/local/bin/docker-compose
+mahsan@k8s:~/my-docker/Install$ docker-compose --version
+docker-compose version 1.29.2, build 5becea4c
+
